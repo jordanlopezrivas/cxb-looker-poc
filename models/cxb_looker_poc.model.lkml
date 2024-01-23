@@ -5,7 +5,7 @@ include: "/views/**/*.view.lkml"
 
 datagroup: cxb_looker_poc_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
-  max_cache_age: "1 hour"
+  max_cache_age: "2 hour"
 }
 
 persist_with: cxb_looker_poc_default_datagroup
