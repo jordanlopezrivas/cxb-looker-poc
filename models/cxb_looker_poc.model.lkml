@@ -1,6 +1,6 @@
 connection: "looker_partner_demo"
 
-# include all the views
+# include all the views ()
 include: "/views/**/*.view.lkml"
 
 datagroup: cxb_looker_poc_default_datagroup {
